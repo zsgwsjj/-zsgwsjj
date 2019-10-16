@@ -6,15 +6,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  首页: / || fa fa-home
+  分类: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+#  相册: /categories/ || fa fa-folder-open
+#  友情链接: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  其他 ||fa fa-list:
+    - 音乐 || /music/ || fa fa-music
+    - 电影 || /movies/ || fa fa-film
 
 
 # Favicon
@@ -37,7 +37,7 @@ favicon: /img/favicon.ico
 
 # Highlight theme
 # ---------------
-highlight_theme: light
+highlight_theme: darker
 highlight_copy: false #代碼複製按鈕
 highlight_lang: true #代碼語言顯示
 highlight_shrink: false #代碼框不展開，需點擊 '>' 打開
@@ -131,11 +131,11 @@ cdn:
 # Post info settings
 # ---------------
 # avatar: /img/avatar.png
-avatar: https://s2.ax1x.com/2019/10/16/KFuRPO.jp
+avatar: https://ftp.bmp.ovh/imgs/2019/10/5865698a40e20078.jpg
 
 # the banner image of index
 # if the banner of another page not setting,it will show the top_img
-top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
+top_img: http://pic2.52pk.com/files/140404/1283314_132141_9760.jpg
 
 #the banner image of post
 # if the post not set the post cover and post top image, it will show it
@@ -255,7 +255,7 @@ valine:
 # ------------------------------------
 since: 2018
 
-footer_custom_text:
+footer_custom_text: 看的东西多了，总有记不住的时候，于是就都写在这里了
 
 footer_copyright:
   enable: true
@@ -289,15 +289,15 @@ qihu_site_verification:
 Flink:
   headline: 友情鏈接
   info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
+  name: Blog 名字： MrJiang
   address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
-  comment: 如果需要交換友鏈,請留言
+  avatar: Blog 頭像： https://ftp.bmp.ovh/imgs/2019/10/5865698a40e20078.jpg
+  info: Blog 簡介： 目标JAVA全栈/BLZ全家桶玩家
+  comment: 战网号【花雨江#5342】
 
 # 打賞按鈕
 reward:
-  enable: true
+  enable: false
   QR_code:
     - itemlist:
         img: /img/wechat.jpg
@@ -443,7 +443,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 个人成长记录
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -457,7 +457,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 10/16/2019 00:00:00
 
 
 ####   右下角按鈕  ####
