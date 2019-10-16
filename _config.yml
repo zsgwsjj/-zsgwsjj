@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: zsgwsjj
 subtitle:
-description:
+description: JAVA全栈工程师养成日志
 keywords:
-author: John Doe
-language: en
-timezone:
+author: MrJiang
+language: zh
+timezone: GMT+8
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
