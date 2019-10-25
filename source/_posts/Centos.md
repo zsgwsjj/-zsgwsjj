@@ -1,3 +1,9 @@
+---
+title: Centos7.3防火墙配置
+date: 2019-10-16 23:43:14
+type: "centos_firewall"
+---
+
 # Centos7.3防火墙配置
 
 
@@ -49,4 +55,3 @@ firewall-cmd --reload
 3、--add-port：标识添加的端口；
 ```
 
-  
